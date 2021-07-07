@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="navegacion">
+      <nav>
+        <ul class="navegacion">
+          <li class="navegacion"><a href="#footer">Pie</a></li>
+          <li class="navegacion">
+            <a href="http://www.google.es" target="_blank">Google</a>
+          </li>
+          <li class="navegacion">
+            <a href="mailto:bjlanza@gmail.com">Correo</a>
+          </li>
+          <li class="navegacion"><a href="#">Enlace Vacio</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="tabla">
+      <table class="estilostabla">
+        <thead>
+          <tr>
+            <th colspan="6">Results</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>No</td>
+            <td>Competition</td>
+            <td>John</td>
+            <td>Adam</td>
+            <td>Robert</td>
+            <td>Paul</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Swimming</td>
+            <td>1:30</td>
+            <td>2:05</td>
+            <td>1:15</td>
+            <td>1:41</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td colspan="5">Running</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Shooting</td>
+            <td>70%</td>
+            <td>55%</td>
+            <td colspan="2">90%</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div id="form">
+      <form action="post">
+        <fieldset>
+          <legend>Datos Personales</legend>
+          <input type="text" name="nombre" id="fname" required /><br />
+          <input type="text" name="apellio" id="fsurname" value="Borja" /><br />
+          <textarea
+            name="areatexto"
+            id="fareatext"
+            cols="30"
+            rows="10"
+            autofocus
+          ></textarea
+          ><br />
+          <input type="tel" name="phone" id="fphone" /><br />
+          <input type="file" name="fichero" id="ffile" /><br />
+          <label for="genero">Sexo</label>
+          <input type="radio" name="genero" id="fmasc" value="masculino" />
+          <input type="radio" name="genero" id="ffem" value="femenino" />
+          <input type="radio" name="genero" id="fother" value="nc" /><br />
+        </fieldset>
+        <label for="fperro">Perro</label>
+        <input type="checkbox" name="mascotas" id="fperro" value="perro" />
+        <label for="fgato">Gato</label>
+        <input type="checkbox" name="mascotas" id="fgato" value="gato" />
+        <input
+          type="checkbox"
+          name="mascotas"
+          id="fotros"
+          value="otros"
+        /><br />
+        <label for="fcoche">Coche</label>
+        <select name="coche" id="fcoche">
+          <option value="ferrari">Ferrari</option>
+          <option value="lamborgini">Lamborgini</option>
+          <option value="porsche" selected>Porsche</option></select
+        ><br />
+        <input type="password" name="password" id="fpass" /><br />
+        <input type="submit" value="Enviar" /><br />
+      </form>
+    </div>
+    <div id="multimedia">
+      <!-- Me da problemas en Javascript -->
+      <!-- <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/U329pKWKqWw"
+        title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe> -->
+    </div>
+    <footer id="footer">
+      <address>
+        <strong>Dirección:</strong> Calle de las Campanillas, 26, <br />
+        24008 León, Spain
+        <strong> +34 987 87 64 34</strong>
+      </address>
+    </footer>
+    <div id="javascript">
+      <ul id="ejercicio4"></ul>
+
+      <button id="button">Funcion 2</button>
+  
+
+    </div>
+    <script src="scripts.js"></script>
+    
+  </body>
+</html>

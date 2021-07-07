@@ -1,0 +1,84 @@
+
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(95, 112, 206);
+    padding: 12px;
+}
+
+p{
+
+font-size: 14px;
+color: rgb(166, 206, 200);    
+}
+
+#especial {
+    color: rgb(89, 135, 166);
+}
+
+h1, h2 {
+    color: rgba(rgba(0, 195, 255, 0.575), rgb(136, 218, 200), rgba(105, 105, 200, 0.808), alpha);
+}
+
+.subrayado{
+    color: #518eff;
+}
+
+a{
+    color: darkgreen;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+a:hover{
+    color:rgb(190, 8, 8);
+    text-decoration: underline;
+    font: bold;
+}
+
+a:active{
+    color: #ff00ff;
+    text-decoration: underline wavy;
+}
+
+a:visited{
+    color: hsl(51, 100, 50);
+}
+
+
+table.rosyBrownTable {
+    border: 4px solid #BA8697;
+    background-color: #555555;
+    width: 400px;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  table.rosyBrownTable td, table.rosyBrownTable th {
+    border: 1px solid #555555;
+    padding: 4px 4px;
+  }
+  table.rosyBrownTable tbody td {
+    font-size: 13px;
+    font-weight: bold;
+    color: #FFFFFF;
+  }
+  table.rosyBrownTable tr:nth-child(even) {
+    background: #BA8697;
+  }
+  table.rosyBrownTable td:nth-child(even) {
+    background: #BA8697;
+  }
+  table.rosyBrownTable tfoot .links {
+    text-align: right;
+  }
+  table.rosyBrownTable tfoot .links a{
+    display: inline-block;
+    background: #ac7070;
+    color: #BA8697;
+    padding: 2px 8px;
+    border-radius: 5px;
+  }
+
+
+textarea{
+    background-color:lightslategrey;
+}
