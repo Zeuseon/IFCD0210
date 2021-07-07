@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <title>
+       Formulario
+    </title>
+    <style>
+        h1 { 
+          
+        }
+          
+        input[type=checkbox] {
+            vertical-align: middle;
+            position: relative;
+            bottom: 1px;
+        }
+          input[type=radio] {
+              vertical-align: middle;
+              position: relative;
+              bottom: 1px
+          }
+        label {
+            display: block;
+        }
+    </style>
+</head>
+  
+<body>
+    <h3>Preferencias</h3>
+    <form>
+        <label>
+            <input type="checkbox" name="asignatura" value ="asignaturageografia">Geografia
+            <input type="checkbox" name="asignatura" value ="asignaturalengua">Lengua
+            <input type="checkbox" name="asignatura" value ="asignaturamatematicas">Matematicas
+            <input type="checkbox" name="asignatura" value ="asignaturahistoria">Historia
+         
+        </label>
+  
+        <textarea rows="8" cols="56">
+         Escriba aquí, por favor...
+          </textarea>
+        
+    </form>
+
+   DNI <input type="text"> Nombre <input type="text"> Apellidos <input type="text"> Email <input type="text" name="email">
+   
+   <form>
+    <label for="Elija una fecha">Elija una fecha</label>
+    <input type="date" id="birthday" name="birthday">
+  </form>
+
+  <form>
+  Elija un color <input type="color">
+  </form>
+<form>
+  Elija una hora <input type="time" id="appt" name="appt"
+  min="09:00" max="18:00" required>
+</form>
+<html>
+  <select name="Velocidad">
+     <option value="100_mbits">100 Mbits</option> 
+     <option value="1000_mbits">1000 Mbits</option> 
+  </select>
+<br>
+  <input type="radio" name="lenguaje" value ="lenguajephyton">Phyton
+  <input type="radio" name="lenguaje" value ="lenguajehtml">HTML 
+  <input type="radio" name="lenguaje" value ="lenguajevisual_basic">Visual Basic 
+  <input type="radio" name="lenguaje" value ="lenguajejava">Java
+  <br>
+
+  <form action="/action_page.php">
+    <label for="myfile">Elija un fichero</label>
+    <input type="file" id="myfile" name="myfile"><br><br>
+  </form>
+
+
+  </html>
