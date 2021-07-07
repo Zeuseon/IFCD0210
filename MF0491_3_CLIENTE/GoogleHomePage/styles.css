@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+/*NAVIGATION BAR*/
+#nav_bar {
+    float:right;
+}
+
+#nav_bar li {
+    display: inline-block;
+    padding: 8px;
+  }
+
+  #nav_bar #sign_in {
+    background: #4887ef; 
+    margin-right: 25px;
+    padding: 7px 15px;
+    border-radius: 3px; 
+    font-weight: bold;
+    }
+
+    .nav-links {
+        color: #404040;;
+      }
+
+      a {
+      text-decoration: none;
+      color: inherit;
+      }
+
+    li.nav-links a:hover {
+    text-decoration: underline;
+    }
+
+     #sign_in {
+         color: #fff
+     }
+
+     /*GOOGLE LOGO*/
+
+     .google #google_logo {
+        text-align: center;
+       display: block;
+       margin: 0 auto;
+       clear: both;
+       padding-top: 112px;
+       padding-bottom: 20px;
+     }
+
+/*SEARCH BAR*/
+     textarea:focus, input:focus{
+        outline: none;
+    }
+
+   .form{
+       text-align: center;
+   }
+
+   #form_search {
+    width: 450px;
+   }
+   .form #form-search:hover{
+    box-shadow: inset 0px 0px 3px #c1c1c1;
+   }
+
+   .form #form-search {
+    border: 1px solid #e1e1e1;
+    padding: 8px 200px;
+    border-radius: 50px;
+    background-image: url(outline_search_black_24dp.png);
+    background-repeat: no-repeat;
+    background-position: 1px;
+    
+   }
+   /*BUTTONS*/
+   .buttons{
+   text-align: center;
+   padding-top: 30px;
+   margin-bottom: 300px;
+   }
+   input[type="button"] {
+    padding: 7px 10px;
+    background-color: #f5f5f5;
+    border: transparent;
+    
+  
+   }
+
+  
+/*FOOTER*/
+footer  {
+    background: #f2f2f2;
+    border-top: solid 2px #e0dddd;
+    bottom: 0;
+    padding-bottom: 0;
+    width: 100%;
+    
+  }
+  
+  footer ul li {
+    display: inline;
+    color: #666666;
+    font-size: 14px;
+    padding: 13px;
+  }
+  
+  footer ul {
+    float: left;
+    padding: 1px;
+  }
+  
+  footer ul a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-right {
+    float: right;
+  }
+

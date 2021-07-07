@@ -1,0 +1,63 @@
+/*Estilos Principales*/
+body {
+    background-color: powderblue;
+    color:rgb(9, 24, 5);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+ color: blue
+ 
+}
+
+*{
+    font-size: 40px
+    
+}
+
+/*Estilos de clase*/
+.camuflaje{
+    color:khaki
+}
+
+div {
+ color: aqua
+}
+
+p.bio{
+    color:rgb(0, 0, 0)
+}
+
+
+/*Estilos Biografia*/
+p.bio {
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.p{
+    color:saddlebrown
+}
+
+/*Estilos Enlance*/
+a:hover{
+    color:rgb(12, 182, 212)
+}
+
+a:focus{
+    color: green
+}
+
+a:active {
+    color:red
+}
+
+
+img{
+    width: 300px
+}
+
+.fuenteAria{
+    font-family: 'Courier New', Courier, monospace
+}
+
